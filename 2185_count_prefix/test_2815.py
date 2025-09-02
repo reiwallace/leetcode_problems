@@ -1,4 +1,4 @@
-from problem_2815_attempt_1 import Solution
+from problem_2815_attempt_2 import Solution
 import pytest
 
 @pytest.mark.parametrize("words, pref, expected", [
