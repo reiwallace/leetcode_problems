@@ -1,5 +1,5 @@
 class Solution:
-    # O(n) Time Complexity, O(n) Space Compexity
+    # O(n^2) Time Complexity, O(n) Space Compexity
     def convert(self, s: str, numRows: int) -> str:
         if numRows == 1: return s
         rows = [""] * numRows
