@@ -13,5 +13,3 @@ class Solution:
 
         matrix[:] = newMatrix
         return matrix
-
-        
