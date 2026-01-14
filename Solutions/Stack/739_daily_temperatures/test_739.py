@@ -1,4 +1,4 @@
-from problem_739_attempt_1 import Solution
+from problem_739_attempt_2 import Solution
 import pytest
 
 @pytest.mark.parametrize("temperatures, expected", [
