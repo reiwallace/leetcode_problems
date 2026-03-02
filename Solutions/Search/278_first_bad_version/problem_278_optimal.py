@@ -5,6 +5,8 @@ class Solution:
                 return True
             else:
                 return False
+            
+
         bounds = [0, n]
         while bounds[0] < bounds[1]:
             mid = (bounds[0] + bounds[1]) // 2
@@ -13,4 +15,3 @@ class Solution:
             else:
                 bounds[0] = mid + 1
         return bounds[0]
-    
