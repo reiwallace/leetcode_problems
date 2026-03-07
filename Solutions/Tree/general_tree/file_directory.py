@@ -51,10 +51,8 @@ def fill_tree():
     documents.add_child(node("project", ".docx"))
     photos.add_child(node("img1", ".jpg"))
     photos.add_child(node("img2", ".png"))
-
     etc.add_child(node("config", ".yaml"))
     etc.add_child(node("hosts", ""))
-
     log.add_child(node("app", ".log"))
     log.add_child(node("error", ".log"))
 
