@@ -1,4 +1,4 @@
-from problem_912_attempt_2 import Solution
+from problem_912_attempt_3 import Solution
 import pytest
 
 @pytest.mark.parametrize("nums, expected", [
@@ -8,4 +8,5 @@ import pytest
 ])
 
 def testSortArray(nums, expected):
-    assert Solution.sortArray("", nums) == expected
+    sol = Solution()
+    assert sol.sortArray(nums) == expected
