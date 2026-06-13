@@ -1,4 +1,4 @@
-from problem_1480_attempt_3 import Solution
+from problem_1480_revision import Solution
 import pytest
 
 @pytest.mark.parametrize("nums, expected", [
