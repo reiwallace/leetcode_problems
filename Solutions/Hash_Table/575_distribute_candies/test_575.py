@@ -1,4 +1,4 @@
-from problem_575_attempt_1 import Solution
+from problem_575_revision import Solution
 import pytest
 
 @pytest.mark.parametrize("candyType, expected", [
