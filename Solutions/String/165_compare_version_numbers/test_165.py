@@ -1,4 +1,4 @@
-from problem_165_attempt_1 import Solution
+from problem_165_retry_1 import Solution
 import pytest
 
 @pytest.mark.parametrize("version1, version2, expected", [
@@ -6,7 +6,9 @@ import pytest
     ("1.01", "1.001", 0),
     ("1.0", "1.0.0.0", 0),
     ("7.5.2.4", "7.5.3", -1),
-    ("1.0.1", "1", 1)
+    ("1.0.1", "1", 1),
+    ("1", "0", 1),
+    ("0.1", "1.1", -1)
 ])
 
 def testCompareVersion(version1, version2, expected):
