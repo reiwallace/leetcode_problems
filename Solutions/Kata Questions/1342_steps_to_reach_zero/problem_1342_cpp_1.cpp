@@ -9,6 +9,6 @@ public:
                 num--;
             }
         }
-        return total;
+        return steps;
     }
 };
